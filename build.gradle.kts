@@ -18,7 +18,7 @@ plugins {
 }
 
 base {
-    archivesName = "sodium-fabric-edit"
+    archivesName = "sodium-fabric"
 
     group = "me.jellysquid.mods"
     version = createVersionString()
