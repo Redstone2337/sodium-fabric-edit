@@ -42,4 +42,4 @@ jobs:
         uses: echapmanFromBunnings/upload-artifact@3.0.0
         with:
             name: sodium-artifacts-${{ steps.ref.outputs.branch }}
-            path: build/*.jar    
+            path: build/libs/*.jar    
