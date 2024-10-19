@@ -6,7 +6,7 @@ object Constants {
     const val FABRIC_API_VERSION: String = "0.91.0+1.20.1"
 
     // https://semver.org/
-    const val MOD_VERSION: String = "0.5.8"
+    const val MOD_VERSION: String = "0.5.8+build1"
 }
 
 plugins {
@@ -18,7 +18,7 @@ plugins {
 }
 
 base {
-    archivesName = "sodium-fabric"
+    archivesName = "sodium-fabric-edit"
 
     group = "me.jellysquid.mods"
     version = createVersionString()
